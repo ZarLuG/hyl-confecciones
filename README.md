@@ -86,10 +86,3 @@ For example the site https://zerostaticthemes.github.io/jekyll-serif-theme would
 ### License
 
 This theme is open source under the MIT license. Please be respectful 🙏🏽 Leave me as an original author in the LICENSE file if you fork or copy this theme. 
-
-> Do not create ports of this theme. Do You can't re-distribute or re-sell this theme as a theme, stock, in a tool or as a template.
-
-### Other Versions
-
-- [Hugo Serif Theme](https://github.com/zerostaticthemes/hugo-serif-theme) (official)
-- [Gatsby Serif Theme](https://github.com/zerostaticthemes/gatsby-serif-theme) (official)

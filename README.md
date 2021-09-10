@@ -4,7 +4,7 @@ Pagina de tipo estatica
 Contiene varios tipos de contenido para un sitio web comercial típico. El tema es totalmente adaptable, ultrarrápido y artísticamente ilustrado.
 
 [Direccion](https://zarlug.github.io/hyl_confecciones/) | 
-[Contacto](wa.me/+5493434605889) | 
+[Contacto](https://wa.me/+5493434605889) | 
 
 ![Jekyll Serif Theme screenshot](https://www.zerostatic.io/theme/jekyll-serif/jekyll-serif-screenshot.png)
 

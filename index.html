@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="utf-8" />
@@ -8,88 +8,164 @@
     <meta name="author" content="" />
     <title>H&L Confecciones</title>
     <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="assets/hyl.ico" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
 </head>
 
-<body>
-    <!-- Responsive navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container px-5">
-            <a class="navbar-brand" href="#!">H&L Confecciones</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="nosotros/nosotros.html">Nosotros</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contacto/contacto.html">Contacto</a></li>
-                    <li class="nav-item"><a class="nav-link" href="productos/productos.html">Productos</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Page Content-->
-    <div class="container px-4 px-lg-5">
-        <!-- Heading Row-->
-        <div class="row gx-4 gx-lg-5 align-items-center my-5">
-            <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0"
-                    src="https://dummyimage.com/900x400/dee2e6/6c757d.jpg" alt="..." /></div>
-            <div class="col-lg-5">
-                <h1 class="font-weight-light">Tu confort nos importa</h1>
-                <p>Bienvenidos a nuestra pagina web !!! Te brindamos este espacio para poder conocernos mejor, nuestra
-                    forma de trabajar y quienes estan detras de la marca.</p>
-                <a class="btn btn-primary" href="#!">Escribinos</a>
-            </div>
-        </div>
-
-        <!-- Call to Action-->
-        <div class="card text-white bg-secondary my-5 py-4 text-center">
-            <div class="card-body">
-                <p class="text-white m-0">Gracias por acompañarnos este 2021!</p>
-            </div>
-        </div>
-
-        <!-- Content Row-->
-        <div class="row gx-4 gx-lg-5">
-            <div class="col-md-4 mb-5">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h2 class="card-title">Barbijos simples</h2>
-                        <p class="card-text">Aca se detalla toda la informacion sobre los Barbijos.</p>
-                    </div>
-                    <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">Más Info</a></div>
+<body class="d-flex flex-column h-100">
+    <main class="flex-shrink-0">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container px-5">
+                <a class="navbar-brand" href="index.html">H&L Confecciones</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation"><span
+                        class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="blog-home.html">Blog</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Galeria</a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
+                                <li><a class="dropdown-item" href="portfolio-overview.html">Productos</a></li>
+                                <li><a class="dropdown-item" href="portfolio-item.html">Taller</a></li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div class="col-md-4 mb-5">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h2 class="card-title">Barbijos 3D</h2>
-                        <p class="card-text">Aca se detalla toda la informacion sobre los Barbijos.</p>
+        </nav>
+
+        <!-- Header-->
+        <header class="bg-dark py-5">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center justify-content-center">
+                    <div class="col-lg-8 col-xl-7 col-xxl-6">
+                        <div class="my-5 text-center text-xl-start">
+                            <h1 class="display-5 fw-bolder text-white mb-2">Tu confort nos importa
+                            </h1>
+                            <p class="lead fw-normal text-white-50 mb-4">Bienvenidos a nuestra pagina web !!! Te
+                                brindamos este espacio para poder conocernos mejor, nuestra
+                                forma de trabajar y quienes estan detras de la marca!.</p>
+                            <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
+                                <a class="btn btn-primary btn-lg px-4 me-sm-3"
+                                    href="https://wa.me/3434605889">Escribinos</a>
+                                <a class="btn btn-outline-light btn-lg px-4" href="#esloagan">Vision</a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">Más Info</a></div>
+                    <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5"
+                            src="assets/home.png" alt="..." /></div>
                 </div>
             </div>
-            <div class="col-md-4 mb-5">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h2 class="card-title">Barbijos con válvula</h2>
-                        <p class="card-text">Aca se detalla toda la informacion sobre los Barbijos.</p>
+        </header>
+
+        <!-- Features section-->
+        <section class="py-5" id="features">
+            <div class="container px-5 my-5">
+                <div class="row gx-5">
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h2 class="fw-bolder mb-0">Nuestras fortalezas</h2>
                     </div>
-                    <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">Más Info</a></div>
+                    <div class="col-lg-8">
+                        <div class="row gx-5 row-cols-1 row-cols-md-2">
+                            <div class="col mb-5 h-100">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i
+                                        class="bi bi-award"></i></div>
+                                <h2 class="h5">Calidad</h2>
+                                <p class="mb-0">Nos centramos en ofrecerte un producto de calidad priorizando tu confort
+                                </p>
+                            </div>
+                            <div class="col mb-5 h-100">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i
+                                        class="bi bi-people-fill"></i></div>
+                                <h2 class="h5">Trabajo en equipo</h2>
+                                <p class="mb-0">Optimizamos nuestros procesos y tareas para un trabajo mas eficiente</p>
+                            </div>
+                            <div class="col mb-5 mb-md-0 h-100">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i
+                                        class="bi bi-cash-coin"></i></div>
+                                <h2 class="h5">Precios</h2>
+                                <p class="mb-0">Mantenemos nuestros precios accesibles para todo el publico</p>
+                            </div>
+                            <div class="col h-100">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i
+                                        class="bi bi-brush"></i></div>
+                                <h2 class="h5">Identidad</h2>
+                                <p class="mb-0">Es nuestro estilo, escuchamos lo que queres y adaptamos nuestros
+                                    productos a tu vision</p>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <!-- Testimonial section-->
+            <div class="py-5 bg-light" id="esloagan">
+                <div class="container px-5 my-5">
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-10 col-xl-7">
+                            <div class="text-center">
+                                <div class="fs-4 mb-4 fst-italic">“El mejor momento para plantar un árbol fue hace
+                                    veinte
+                                    años. El segundo mejor momento es ahora” - proverbio chino!"</div>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <img class="rounded-circle me-3" src="assets/Lu.png" alt="..." />
+                                    <div class="fw-bold">
+                                        Luciano
+                                        <span class="fw-bold text-primary mx-1">/</span>
+                                        CTO
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
+
+
+
+
+            <!-- Call to Action-->
+            <div class="card text-white bg-secondary my-5 py-4 text-center">
+                <div class="card-body">
+                    <p class="text-white m-0">Gracias por acompañarnos este 2021!</p>
+
+                    <h5 class="fw-bolder mb-0">Proximamente estaremos actualizando el contenido en nuestro <a
+                            href="https://www.instagram.com/confecciones_hyl/?igshid=13vgs95mgufox"> instagram </a></h5>
+
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+
+
+
+
     <!-- Footer-->
     <footer class="py-5 bg-dark">
         <div class="container px-4 px-lg-5">
             <p class="m-0 text-center text-white">Copyright &copy; H&L Confecciones 2021</p>
         </div>
     </footer>
+
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->

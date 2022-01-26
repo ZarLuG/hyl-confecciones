@@ -11,10 +11,15 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+
+/*Links sin subrayado*/
+
+.texto_sin_decoracion {
+  text-decoration: none;
+}
+
 /*!
 * Adicional pdf
-
-
 iframe{
   margin: auto;
   display: block;
@@ -23,7 +28,6 @@ iframe{
   border-radius: 20px;
   box-shadow: 0 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 */
 
 /*!
@@ -31,6 +35,7 @@ iframe{
  max-width: 760px;
   max-height: 1200px;
 */
+
 #Iframe-Liason-Sheet {
   max-width: 850px;
   max-height: 100vh;
